@@ -1,0 +1,245 @@
+body{
+	background-color: #eeeeee;
+}
+.banner{
+    width : 800px;
+    margin:auto;
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+.carousel-example-generic{
+    width : 800px;
+    height : 1200px;
+    margin :auto;
+}
+.logo{
+	margin : 20px;
+	margin-left : 35%;
+}
+nav {
+    width: 100%;
+    background-color: #5146c4;
+	padding-left: 14%;
+}
+ul li{
+	display : inline-block;
+	padding : 20px;
+	margin:0px 2%;
+}
+.login a{
+	color: #337ab7;
+    font-weight: 700;
+    font-family: Arial;
+    font-size: 17px;
+    text-decoration: underline;
+    padding: 16px;
+    padding-left: 21px;
+    background-color: transparent;
+    top: 30px;
+    position: absolute;
+    right: 15px;
+}
+ul li > a{
+	color: #eeeeee;
+	font-weight: 700;
+	font-family:Arial;
+	font-size: 17px;
+	text-decoration : none;
+	padding: 15px;
+}
+header div a,
+ul li.active > a:hover ,
+ul li > a:hover{
+	color: #ad1f2c;
+	font-size: 17px;
+	font-family:Arial;
+	font-weight: 700;
+	background-color : #1b1271;
+	text-decoration : none;
+	padding: 15px;
+	border-radius :6px;
+}
+.menu {
+    width: 80%;
+}
+.section_home,
+.section_login{
+	background-image: url('../images/bg.jpg');
+	background-repeat :repeat;
+	width : 800px;
+    margin: auto;
+    margin-bottom: 40px;
+}
+.section_home h1 {
+    font-size: 36px;
+    margin-left: 4%;
+    padding-top: 30px;
+    color: #2067c8;
+}
+.section_home h2{
+	font-size: 36px;
+    margin-left: 4%;
+    color: #2067c8;
+}
+.par {
+    float: left;
+    width: 40%;
+    margin-left: 4%;
+    margin-top: 60px;
+}
+.section_home p{
+	padding: 10px 6%;
+}
+.container{
+	margin-bottom: 25px;
+	margin-left : 20%;
+	background-image:url('../images/bg.jpg');
+	background-repeat : repeat;
+	width :60%;
+}
+.form-control {
+    width: 72%;
+}
+.container h1 {
+    font-size: 24px;
+    margin-bottom: 30px;
+	margin-top: 35px;
+}
+.form-group {
+    margin-bottom: 15px;
+    margin-left: 2%;
+}
+.container label{
+	color: #5146c4;
+}
+.section_offre{
+	background-image: url('../images/bg.jpg');
+	background-repeat :repeat;
+	width : 980px;
+    margin: auto;
+    margin-bottom: 40px;
+}
+.section_showroom{
+	background-image: url('../images/bg.jpg');
+	background-repeat :repeat;
+	width : 800px;
+    margin: auto;
+    margin-bottom: 40px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.section_offre  article{
+	margin: 10px 2% 20px;
+	padding : 30px 0;
+	position :relative;
+}
+.section_showroom article{   
+	margin: 10px 2% 20px;
+	padding : 30px 0;
+	position :relative;
+	border-bottom: solid 2px #1f1490;
+	border-radius: 45px;
+	border-top: solid 2px #1f1490;
+}
+.section_offre  .photo{
+		width: 62.5%;
+}
+.section_showroom .photo,
+.section_deal .photo{
+		width: 62.5%;
+		margin-left: 15%;
+}
+.section_offre .offre{
+    width: 40%;
+    position: absolute;
+    top: 200px;
+    left: 70%;
+}
+.section_showroom .offre {
+	width: 40%;
+    position: absolute;
+    top: 40px;
+    left: 50%;
+}
+.section_offre .offre label,
+.section_showroom .offre label,
+.section_deal .offre label {
+    margin-bottom: 15px;
+}
+.section_deal{
+	background-image: url('../images/bg.jpg');
+	background-repeat :repeat;
+	width : 800px;
+    margin: auto;
+    margin-bottom: 40px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.section_deal article{   
+	margin: 10px 2% 20px;
+	padding : 30px 0;
+	border-bottom: solid 2px #1f1490;
+	border-radius: 45px;
+	border-top: solid 2px #1f1490;
+}
+.section_deal .offre {
+	width: 40%;
+	margin-top: 45px;
+    margin-left: 25%;
+}
+.section_showroom a,
+.section_deal a,
+.section_offre a{
+	padding : 10px 20px;
+	color : #eeeeee;
+	background-color :  #1b1271;
+	text-decoration : none;
+	border-radius : 4px;
+}
+.section_showroom a:hover,
+.section_deal a:hover,
+.section_offre a:hover{
+	color : #ccef55;
+}
+.section_commande{
+	background-image: url('../images/bg.jpg');
+	background-repeat :repeat;
+	width : 800px;
+    margin: auto;
+    margin-bottom: 40px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.section_commande h1{
+	margin-left : 5%;
+}
+.section_commande article{   
+	margin: 10px 2% 20px;
+	padding : 30px 0;
+	border-bottom: solid 2px #1f1490;
+	border-radius: 45px;
+	border-top: solid 2px #1f1490;
+}
+.section_commande .par {
+	margin-left: 8%;
+	margin-bottom : 10px;
+}
+.section_commande .input {
+    margin-top: 25px;
+}
+.section_commande input.btn.btn-primary {
+    margin-left: 30%;
+}
+footer {
+    background-color: #1f1490;
+    padding: 25px 5%;
+    color: #eeeeee;
+    text-align: center;
+	width:100%;
+}
+.cmd{
+	margin-left:212px;
+}
+.cmdform{
+	padding-left:53px;
+}
